@@ -175,3 +175,16 @@ input:focus {
 .hide {
     display: none;
 }
+
+@media (max-width: 584px) {
+
+#register-banner {
+    display: none;
+}
+
+#register-form {
+    width: 100%;
+    height: auto;
+}
+
+}
