@@ -97,7 +97,7 @@ copyPasswordButton.addEventListener("click", (e) => {
   const password = generatedPasswordElement.querySelector("h4").innerText;
 
   navigator.clipboard.writeText(password).then(() => {
-    copyPasswordButton.innerText = "Password successfully copied.";
+    copyPasswordButton.innerText = "Copied";
 
     setTimeout(() => {
       copyPasswordButton.innerText = "Copy";
