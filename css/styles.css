@@ -134,8 +134,7 @@ input:focus {
 #register-form input[type="submit"]:hover {
     opacity: 1;
 }
-  
-/* Segunda versão */
+
 #generate-options {
     margin-bottom: 1rem;
     padding: 1rem;
@@ -177,6 +176,10 @@ input:focus {
 }
 
 @media (max-width: 584px) {
+
+body {
+    padding: 20px;
+}
 
 #register-banner {
     display: none;
